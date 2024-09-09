@@ -119,7 +119,7 @@ Ids, Vds, Vgs
 | X3      | The V measured at the Gate.  | mV   |
 
 ```haskell
-----Transistor Transfer----
+----Transistor I-T----
 Ids, Vds, Vgs
 X1,X2,X3
 X1,X2,X3
