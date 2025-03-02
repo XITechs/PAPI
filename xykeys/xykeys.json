@@ -1,68 +1,82 @@
 {
-    "xytoolskeys": {
-      "prodid": "250302",
-      "prodname": "relaytest",
-      "prodfuncs": [
+    "xytoolskeys": [
         {
-          "funcname": "singleOnOff",
-          "funcpara": [
+            "prodid": "250302",
+            "prodname": "relaytest",
+            "prodfuncs": [
             {
-              "paraname": "On",
-              "parainput": "button",
-              "paraunit": "",
-              "pararange1": "",
-              "parainc": "",
-              "pararange2": ""
+            "funcname": "singleOnOff",
+            "funcpara": [
+                {
+                "paraname": "On",
+                "parainput": "button",
+                "paraunit": "",
+                "pararange1": "",
+                "parainc": "",
+                "pararange2": ""
+                },
+                {
+                "paraname": "Off",
+                "parainput": "button",
+                "paraunit": "",
+                "pararange1": "",
+                "parainc": "",
+                "pararange2": ""
+                }
+            ],
+            "figparas": {
+                "figname": "relaytest",
+                "xname": "time",
+                "yname": "stat"
+            }
             },
             {
-              "paraname": "Off",
-              "parainput": "button",
-              "paraunit": "",
-              "pararange1": "",
-              "parainc": "",
-              "pararange2": ""
+            "funcname": "multiOnOff",
+            "funcpara": [
+                {
+                "paraname": "number of on/off",
+                "parainput": "numbox",
+                "paraunit": "",
+                "pararange1": "1",
+                "parainc": "",
+                "pararange2": ""
+                },
+                {
+                "paraname": "on time",
+                "parainput": "numbox",
+                "paraunit": "ms",
+                "pararange1": "10",
+                "parainc": "",
+                "pararange2": ""
+                },
+                {
+                "paraname": "off time",
+                "parainput": "numbox",
+                "paraunit": "ms",
+                "pararange1": "10",
+                "parainc": "",
+                "pararange2": ""
+                }
+            ],
+            "figparas": {
+                "figname": "relaytest",
+                "xname": "time",
+                "yname": "stat"
             }
-          ],
-          "figparas": {
-            "figname": "relaytest",
-            "xname": "time",
-            "yname": "stat"
-          }
+            }
+        ]
         },
         {
-          "funcname": "multiOnOff",
-          "funcpara": [
-            {
-              "paraname": "number of on/off",
-              "parainput": "numbox",
-              "paraunit": "",
-              "pararange1": "1",
-              "parainc": "",
-              "pararange2": ""
-            },
-            {
-              "paraname": "on time",
-              "parainput": "numbox",
-              "paraunit": "ms",
-              "pararange1": "10",
-              "parainc": "",
-              "pararange2": ""
-            },
-            {
-              "paraname": "off time",
-              "parainput": "numbox",
-              "paraunit": "ms",
-              "pararange1": "10",
-              "parainc": "",
-              "pararange2": ""
+            "prodid": "250301",
+            "prodname": "PERfECT",
+            "prodfuncs": [
+            { 
+                "funcname": "🧪 Debug"
+            },{ 
+                "funcname": "🏹 Write"
             }
-          ],
-          "figparas": {
-            "figname": "relaytest",
-            "xname": "time",
-            "yname": "stat"
-          }
+            ]
         }
-      ]
-    }
+
+    ]
   }
