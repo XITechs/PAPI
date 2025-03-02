@@ -1,0 +1,68 @@
+{
+    "xytoolskeys": {
+      "prodid": "250302",
+      "prodname": "relaytest",
+      "prodfuncs": [
+        {
+          "funcname": "singleOnOff",
+          "funcpara": [
+            {
+              "paraname": "On",
+              "parainput": "button",
+              "paraunit": "",
+              "pararange1": "",
+              "parainc": "",
+              "pararange2": ""
+            },
+            {
+              "paraname": "Off",
+              "parainput": "button",
+              "paraunit": "",
+              "pararange1": "",
+              "parainc": "",
+              "pararange2": ""
+            }
+          ],
+          "figparas": {
+            "figname": "relaytest",
+            "xname": "time",
+            "yname": "stat"
+          }
+        },
+        {
+          "funcname": "multiOnOff",
+          "funcpara": [
+            {
+              "paraname": "number of on/off",
+              "parainput": "numbox",
+              "paraunit": "",
+              "pararange1": "1",
+              "parainc": "",
+              "pararange2": ""
+            },
+            {
+              "paraname": "on time",
+              "parainput": "numbox",
+              "paraunit": "ms",
+              "pararange1": "10",
+              "parainc": "",
+              "pararange2": ""
+            },
+            {
+              "paraname": "off time",
+              "parainput": "numbox",
+              "paraunit": "ms",
+              "pararange1": "10",
+              "parainc": "",
+              "pararange2": ""
+            }
+          ],
+          "figparas": {
+            "figname": "relaytest",
+            "xname": "time",
+            "yname": "stat"
+          }
+        }
+      ]
+    }
+  }
